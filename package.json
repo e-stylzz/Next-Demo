@@ -4,12 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next"
+    "dev": "next",
+    "dev-server": "node server.js",
+    "build": "next build",
+    "start": "next start -p 8000"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.15.3",
+    "isomorphic-unfetch": "^1.0.0",
     "next": "^2.4.0",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
